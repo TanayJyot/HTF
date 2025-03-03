@@ -1,0 +1,290 @@
+[
+    {
+        "item name": "Solar Lamp",
+        "item description": "A durable and eco-friendly solar-powered lamp.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Great product! Works perfectly even in low sunlight."
+            },
+            {
+                "stars": "4",
+                "content": "Good quality but takes time to fully charge."
+            }
+        ]
+    },
+    {
+        "item name": "Wireless Mouse",
+        "item description": "Ergonomic wireless mouse with adjustable DPI.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Very comfortable to use and responsive."
+            },
+            {
+                "stars": "3",
+                "content": "Battery drains faster than expected."
+            }
+        ]
+    },
+    {
+        "item name": "Smart Watch",
+        "item description": "Fitness tracking smartwatch with heart rate monitor.",
+        "reviews": [
+            {
+                "stars": "4",
+                "content": "Nice features but the battery lasts only a day."
+            },
+            {
+                "stars": "5",
+                "content": "Accurate tracking and stylish design."
+            },
+            {
+                "stars": "2",
+                "content": "Stopped working after a month."
+            }
+        ]
+    },
+    {
+        "item name": "Bluetooth Speaker",
+        "item description": "Portable speaker with deep bass and long battery life.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Amazing sound quality and very lightweight."
+            },
+            {
+                "stars": "4",
+                "content": "Good but lacks volume control buttons."
+            }
+        ]
+    },
+    {
+        "item name": "Gaming Keyboard",
+        "item description": "Mechanical keyboard with RGB lighting and fast response.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Best keyboard for gaming, feels premium!"
+            },
+            {
+                "stars": "3",
+                "content": "Keys are a bit too loud for my liking."
+            }
+        ]
+    },
+    {
+        "item name": "Noise Cancelling Headphones",
+        "item description": "Wireless over-ear headphones with active noise cancellation.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Blocks out noise completely, great for travel."
+            },
+            {
+                "stars": "4",
+                "content": "Comfortable but a bit pricey."
+            },
+            {
+                "stars": "3",
+                "content": "Sound quality is good but not the best in this range."
+            }
+        ]
+    },
+    {
+        "item name": "4K Monitor",
+        "item description": "Ultra HD 4K monitor with vibrant colors and wide viewing angles.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Crisp display and great color accuracy."
+            },
+            {
+                "stars": "4",
+                "content": "Expensive but worth it."
+            }
+        ]
+    },
+    {
+        "item name": "Smartphone Tripod",
+        "item description": "Adjustable and lightweight smartphone tripod for steady shots.",
+        "reviews": [
+            {
+                "stars": "4",
+                "content": "Good stability, but the build quality could be better."
+            },
+            {
+                "stars": "5",
+                "content": "Perfect for vlogging and live streaming."
+            }
+        ]
+    },
+    {
+        "item name": "Electric Toothbrush",
+        "item description": "Rechargeable toothbrush with multiple cleaning modes.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Teeth feel super clean after using this."
+            },
+            {
+                "stars": "3",
+                "content": "The battery life is not as advertised."
+            }
+        ]
+    },
+    {
+        "item name": "Wireless Charger",
+        "item description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Charges my phone quickly and looks sleek."
+            },
+            {
+                "stars": "4",
+                "content": "Works well, but sometimes the connection drops."
+            }
+        ]
+    },
+    {
+        "item name": "Portable Power Bank",
+        "item description": "High-capacity portable charger with fast charging support.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Charges my phone multiple times on a single charge."
+            },
+            {
+                "stars": "4",
+                "content": "A bit bulky, but excellent performance."
+            }
+        ]
+    },
+    {
+        "item name": "Smart LED Bulb",
+        "item description": "WiFi-enabled LED bulb with voice control support.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Easy to install and works with Alexa flawlessly."
+            },
+            {
+                "stars": "3",
+                "content": "Sometimes disconnects from the WiFi."
+            }
+        ]
+    },
+    {
+        "item name": "Laptop Cooling Pad",
+        "item description": "Ultra-quiet cooling pad for gaming laptops.",
+        "reviews": [
+            {
+                "stars": "4",
+                "content": "Keeps my laptop cool, but the fan is a little noisy."
+            },
+            {
+                "stars": "5",
+                "content": "Very effective and has a nice LED design."
+            }
+        ]
+    },
+    {
+        "item name": "Digital Drawing Tablet",
+        "item description": "Professional drawing tablet with pressure sensitivity.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Great for digital artists, very responsive."
+            },
+            {
+                "stars": "4",
+                "content": "Good quality but expensive."
+            }
+        ]
+    },
+    {
+        "item name": "Robot Vacuum Cleaner",
+        "item description": "Smart robotic vacuum with automatic dirt disposal.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Cleans the house very well with minimal effort!"
+            },
+            {
+                "stars": "3",
+                "content": "Struggles with thick carpets."
+            }
+        ]
+    },
+    {
+        "item name": "Home Security Camera",
+        "item description": "Wireless security camera with night vision and motion detection.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Crystal clear video and great security features."
+            },
+            {
+                "stars": "4",
+                "content": "The app is a bit slow but works fine."
+            }
+        ]
+    },
+    {
+        "item name": "Portable Espresso Maker",
+        "item description": "Compact espresso maker for coffee lovers on the go.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Makes a great cup of espresso anywhere!"
+            },
+            {
+                "stars": "3",
+                "content": "Takes some effort to use but worth it."
+            }
+        ]
+    },
+    {
+        "item name": "Action Camera",
+        "item description": "4K action camera with waterproof casing.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Perfect for capturing adventures, great quality."
+            },
+            {
+                "stars": "4",
+                "content": "Good but battery life is short."
+            }
+        ]
+    },
+    {
+        "item name": "Adjustable Dumbbells",
+        "item description": "Space-saving adjustable dumbbells for home workouts.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Easy to use and saves a lot of space."
+            },
+            {
+                "stars": "4",
+                "content": "Good but a bit pricey."
+            }
+        ]
+    },
+    {
+        "item name": "Electric Kettle",
+        "item description": "Fast-boiling electric kettle with auto shut-off.",
+        "reviews": [
+            {
+                "stars": "5",
+                "content": "Boils water super fast and very safe to use."
+            },
+            {
+                "stars": "3",
+                "content": "Plastic smell during first few uses."
+            }
+        ]
+    }
+]
