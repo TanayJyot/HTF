@@ -22,7 +22,7 @@ class ReturnReason(BaseModel):
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-with open("fake_dataset.json", "r") as file:
+with open("real_dataset.json", "r") as file:
     dataset = json.load(file)
 
 
