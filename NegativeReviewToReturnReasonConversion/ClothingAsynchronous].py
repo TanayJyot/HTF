@@ -1,10 +1,9 @@
 import torch
 import json
-import multiprocessing
+import asyncio
 from tqdm import tqdm
 from datasets import load_dataset
 import time
-import asyncio
 
 # Check CUDA availability
 if torch.cuda.is_available():
@@ -22,18 +21,17 @@ def print_gpu_utilization():
     else:
         print("GPU not available. Running on CPU.")
 
-# Function to process a single item (now filters for 1 or 2 star reviews)
-def process_item(meta, review_data_stream):
+# Async function to process a single item
+async def process_item(meta, review_data_stream):
     reviews = []
     for review in review_data_stream:
         if review["parent_asin"] == meta["parent_asin"]:
-            # Only include reviews with 2 or 1 stars
             if review["rating"] in [1, 2, 3, 4]:
                 reviews.append({
                     "stars": review["rating"],
                     "content": f"Title: {review.get('title', '')}, Text: {review.get('text', '')}"
                 })
-        if len(reviews) >= 5:  # Limit to 5 reviews
+        if len(reviews) >= 5:
             break
 
     return {
@@ -42,11 +40,11 @@ def process_item(meta, review_data_stream):
         "reviews": reviews
     }
 
-# Async function for loading datasets (simulate async I/O task)
+# Async function for loading datasets
 async def load_datasets():
     print("Loading datasets asynchronously...")
     for _ in tqdm(range(100), desc="Preparing environment", unit="%"):
-        await asyncio.sleep(0.05)  # Simulating delay with progress
+        await asyncio.sleep(0.05)
     meta_dataset = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_meta_Clothing_Shoes_and_Jewelry",
                                 split="full", streaming=True)
     review_dataset = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_review_Clothing_Shoes_and_Jewelry",
@@ -60,8 +58,8 @@ async def main():
     # Load datasets asynchronously
     meta_dataset, review_dataset = await load_datasets()
 
-    # Process items using multiprocessing
-    num_items = 10  # Process only 10 items for now
+    # Process items asynchronously
+    num_items = 10
     meta_iter = iter(meta_dataset)
 
     print("Preloading metadata items...")
@@ -72,11 +70,9 @@ async def main():
         except StopIteration:
             break
 
-    print("Processing items in parallel...")
-    with multiprocessing.Pool(processes=multiprocessing.cpu_count()) as pool:
-        processed_data = list(
-            tqdm(pool.starmap(process_item, [(meta, review_dataset) for meta in meta_items]), total=len(meta_items), desc="Processing items")
-        )
+    print("Processing items asynchronously...")
+    tasks = [process_item(meta, review_dataset) for meta in meta_items]
+    processed_data = await asyncio.gather(*tasks)
 
     # Save the processed data
     with open("real_dataset_new_clothing.json", "w", encoding="utf-8") as out_file:
