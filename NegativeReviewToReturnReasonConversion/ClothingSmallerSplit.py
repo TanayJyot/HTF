@@ -38,9 +38,9 @@ def load_datasets():
 
     # Load datasets into memory (no streaming)
     meta_dataset = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_meta_Clothing_Shoes_and_Jewelry",
-                                split="full[:100]", streaming=False)
+                                split="full", streaming=True).take(100)
     review_dataset = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_review_Clothing_Shoes_and_Jewelry",
-                                  split="full[:100]", streaming=False)
+                                  split="full", streaming=True).take(1000)
 
     print("Datasets loaded into memory.")
     return list(meta_dataset), list(review_dataset)

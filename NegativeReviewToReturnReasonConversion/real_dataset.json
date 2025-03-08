@@ -1,59 +1,193 @@
 [
     {
-        "item name": "Whirlpool W10276348 Glass Shelf",
-        "item description": "This is an O.E.M authorized part Fits various whirlpool models O.E.M part number w10276348 This is a Whirlpool replacement part Part Number W10276348 This is an O.E.M. part",
+        "item name": "Whirlpool 4454392 Module",
+        "item description": "Whirlpool (WHIRA) Genuine Replacement Part Oven-accessories",
+        "reviews": [
+            {
+                "stars": 4.0,
+                "content": "Title: Kitchenaid Gas Stove Top Replacement Module, not quite the same config, but worked OK.  Slower spark than the original, Text: This replacement part is a different configuration than the original, but the main thing is the support holes lined up.  The markings on the original and this replacement made it pretty straight forward.  One wire at a time.  I did notice that the spark is not as quick to start as the original unit.<br /><br />Note:  I had to cut a small support zip tie to move the wires around...of course it was not the size I had.  Had to go to the store and get a small bag of 4&#34; zip ties."
+            },
+            {
+                "stars": 1.0,
+                "content": "Title: Part does not work, Text: I bought a spark modulator for my stove/oven and two different installers stated it is worthless and does not work properly. Customer service for parts never picks up and do not return calls."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Worked great!, Text: Hey, I installed it and it worked great."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Saved on Service Bill by DIY., Text: Our Whirlpool Stove is getting older but who can afford all the service bills for appliances.  My husband ordered the part on line when we were having trouble getting the stove to spark properly before gas began to leak in the air.  He followed the installation directions on line and found it very easy.  We saved $150 by DIY."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Five Stars, Text: Works perfectly good"
+            }
+        ]
+    },
+    {
+        "item name": "Whirlpool W10894766 Timer",
+        "item description": "This Is A Genuine Oem Replacement Part. Brand Name: Whirlpool Country Of Origin: United States Model Number: W10894766",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: Works great, replacement for W10185988 C, Text: Saved a ton of money being able to self diagnose this- very glad Maytag sticks the timer schematic inside the dryer for future use. Found poor/no continuity on the Heat Selector circuit which matched my issue of the heating getting weaker and weaker until finally being cold always. This new part # was shown as a placement for W10185988 on another website and it is identical, now my Centennial model runs good as new!"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Works, Text: Works"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Dryer timer., Text: Dryer is working again."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Five Stars, Text: Was a perfect replacement for my machine."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Great product, Text: Excellent quality"
+            }
+        ]
+    },
+    {
+        "item name": "MIELE Tumble Dryer Lint And Fluff Filter 6244611",
+        "item description": "Genuine replacement lint and fluff filter for your Miele tumble dryer. THIS IS A GENUINE MIELE PRODUCT. Please be aware that all electrical items, eg pumps, are European voltage 220-240v not US voltage. Please email us with your model number, and any serial numbers, to confirm this part will fit your appliance. Manufacturer's Code - 6244611",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: Five Stars, Text: Great quality product. as expected from Miele."
+            }
+        ]
+    },
+    {
+        "item name": "Nordic Ware 60030F 17 Oz. Oval Casserole Dish",
+        "item description": "High-heat, BPA-free and Melamine Free Polypropylene Outside Height: 1.75\" Outside Width: 5.125\" Outside Length: 9.062\" 17 Oz. capacity",
         "reviews": [
             {
                 "stars": 3.0,
-                "content": "Title: Does not hold meat drawer, Text: This does not have the slide hooks for the drawer below it. So other than that it's fine."
+                "content": "Title: Fortunately, I still had the lid for the one ..., Text: Caution: this apparently discontinued item comes, as illustrated, without the generally indispensable lid that originally came with it. Fortunately, I still had the lid for the one I broke. All is good."
             },
             {
                 "stars": 5.0,
-                "content": "Title: Five Stars, Text: it was a nice fit."
-            }
-        ]
-    },
-    {
-        "item name": "2-Pack K45WW Wire Whip Replacement for Whirlpool & Kitchenaid Mixers - Compatible with Part Number AP6013701, 4162165, 4169927, 4176070, 9706446, PS11746928",
-        "item description": "UpStart Components Replacement K45WW Wire Whip. Quantity: 2 Ultra durable, high quality material resists wear and tear over time. Easy at-home installation. An affordable way to extend the life of your machine. Compatible WP9704329 Wire Whip for Tilt-Head Stand Mixer for Part Number WPW10672617, AP6023717, W10672617, 9708470, 9708472, 4162163, 4169986, 9707669, PS11757063, W10687981, WP9704329, AP6013701, 9704329, 4162165, 4169927, 4176070, 9706446",
-        "reviews": [
+                "content": "Title: Five Stars, Text: Like it"
+            },
+            {
+                "stars": 2.0,
+                "content": "Title: No lid...!????, Text: So that is kinda a bummer.  Does not come with lids.  Uggghhhhhh"
+            },
             {
                 "stars": 1.0,
-                "content": "Title: Look closely that your mixer, Text: It didn\u2019t fit and it took forever to get a refund!"
+                "content": "Title: MISLEADING, Text: I expected to receive what was shown in the photo.  What I received was a bottom only of a casserole (with lid) that I already own.  The photo shows a much larger dish which is what I was expecting to receive.  The price was very excessive for what was sent.  Very disappointed and unsatisfied!"
             }
         ]
     },
     {
-        "item name": "JY Hong Cheng Refrigerator Base Multi-functional Front Load Top Freezer Washing Machine Base Stand",
-        "item description": "Using the base easily to move the floor standing home appliance,like washing machine,refrigerator and ice maker. The base size can be adjustable.Width: 17.71-27.55 inches,Depth: 18.50-27.55 inches, Height:3.93-5.12 inches Weight Capacity of the base is 250KG/550 lbs.It is enough weight capacity for many type of home appliance. 8 fixed legs can protect the machine better with good weight capacity. Raw material is PP(Polypropylene),square stainless steel tube",
-        "reviews": [
-            {
-                "stars": 1.0,
-                "content": "Title: DO NOT WORK!, Text: I have a standard, regular size washer and drying just bought from SEARS, not too old or obsolete in any way. These bases did NOT stretch or open up enough to be able to fit my regular STANDARD size washer and drying. I am unsure if they fit any at all, it would have to be a mini washer and drying because they dont fit regular normal ones. Very disappointed."
-            }
-        ]
-    },
-    {
-        "item name": "Compatible Lint Screen Filter for Maytag MGDE300VW1, WED9450WR1, Maytag MGD9800TQ0, Kenmore / Sears 11065942401 Dryer",
-        "item description": "New Compatible with Part Number W10120998 Lint Screen Filter SAVE MONEY! Don't spend hundreds of dollars replacing your dryer when all you need is a replacement dryer lint screen filter. EASY TO INSTALL! If you are a DIY person or have experience fixing your dryer, it is pretty easy to replace your old dryer lint screen filter. If not, your local appliance repair shop can do it for you! FITS PERPECTLY! This aftermarket lint screen filter is manufactured to fit the listed models. Please make sure to check your original part to confirm that you are buying the correct product.",
-        "reviews": [
-            {
-                "stars": 1.0,
-                "content": "Title: Not all descriptions are factual., Text: Although this filter claimed to be a match, it did not fit. The design was just different enough to prevent it from sliding into the filter slot."
-            }
-        ]
-    },
-    {
-        "item name": "GE WB24X10130 Range Hood Light Switch",
-        "item description": "The GE WB24X10130 is a genuine OEM Light Switch for Range Hoods This GE Light Switch lets you turn the light on and off The GE WB24X10130 can be applied to some Range Hoods of the following brands: GE The WB24X10130 is an original GE Light Switch that is manufactured to exact specifications with high quality materials Have confidence when making repairs or servicing your appliances with genuine GE parts",
+        "item name": "GENUINE Frigidaire 316049704 Range/Stove/Oven Radiant Surface Element",
+        "item description": "Manufacturer Model #316557107 Genuine Replacement Part Frigidaire item",
         "reviews": [
             {
                 "stars": 5.0,
-                "content": "Title: Good product and fast shipping, Text: Screwed on and worked without any problem. Good product and fast shipping."
+                "content": "Title: Works great, Text: Installed with no issues and is working again. This was the only place I could find this burner."
+            }
+        ]
+    },
+    {
+        "item name": "Jingmg 80040 Washer Agitator Dogs Replacement Kit Exact Fit for Whirlpool Kenmore Washer, 40 PCS",
+        "item description": "",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: Great value, Text: Outstanding value. I am an appliance tech and go through these."
             },
             {
                 "stars": 5.0,
-                "content": "Title: Five Stars, Text: Exact replacement worked great."
+                "content": "Title: Perfect, Text: Worked great in whirlpool washing machine"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Identical to oem, Text: Identical to OEM and adequate performance."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Good quality, Text: It was very quick and very easy to install great price good quality"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Goody, Text: My husband needed this to fix our washer and it worked"
+            }
+        ]
+    },
+    {
+        "item name": "AP4374171 - OEM Factory Original Frigidaire Refrigerator Defrost Thermostat",
+        "item description": "OEM Factory Original Heavy Duty Quality Product Fits All Major Brands",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: Saved $1190, Text: I admit my refrigerator is nearly 15 years old and when it stopped working, I went to buy another (over $1200).  Described my problem to someone on a online site and based upon my description, they said ALL YOU NEED IS THIS PART!  I took a chance for around $10, my refrigerator is now working great again!  More specific, my refrigerator was freezing up, i.e. the coil was clogged with ice and wasn't sending cold air to the freezer or cold storage part of my refrigerator.  This thermostat clips to a coil and sends a signal that heats the coil long enough to defrost the build-up of frost and ice, allowing the fan to blow air through the coil and into the freezer and cold storage areas to keep everything at proper temperature.  For $10, I gambled and it worked!  Thanks to online support and quick shipping, I am back to normal.  SPECIAL NOTE:  Part numbers change over time so the number on original part in my refrigerator had to be cross-referenced to the present part number.  When looking online, different websites had both and/or either part number.  I did my research and this was the BEST price by far.  PRIME MEMBER so shipping was free.  Sites that had the part cheaper, were more expensive once you added shipping costs into the total price."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Five Stars, Text: WORKED"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Good product, Text: Works great. Price was reasonable"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Five Stars, Text: Fast and easy, thank you"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Five Stars, Text: This part was exactly what I needed to fix my freezer that suddenly stopped working."
+            }
+        ]
+    },
+    {
+        "item name": "FireMaple Orca Milk Frothing Pitcher 12oz Black-Espresso Milk Frothing Pitcher,Steaming Pitcher Suitable For Coffee, Latte And Frothing Milk, Ideal for Camping, Travel\uff0cOffice, Home",
+        "item description": "High-Quality Stainless Steel Material - Our milk frothing pitcher is made of high-quality stainless steel, which is durable, anti-rust, and easy to clean. You can use it with confidence, knowing that it will last for years. Perfect Size for Home Use - Our 350ml milk frothing pitcher is a perfect size for home use, allowing you to froth milk for one or two cups of coffee at a time. It's also compact and easy to store. Precise Pouring Spout - Our orca milk frothing pitcher features a precise pouring spout that allows you to pour milk into your coffee or latte with ease and precision. You can create beautiful latte art or simply add frothed milk to your coffee without spilling a drop. Versatile Use - Our orca milk frothing pitcher is versatile and can be used for frothing milk for cappuccinos, lattes, hot chocolates, and other hot beverages. You can also use it for measuring and pouring liquid ingredients for baking and cooking. Professional Results - Our orca milk frothing pitcher is designed to help you achieve professional-quality results at home. You can create rich and creamy frothed milk that's perfect for latte art or simply for adding a delicious creamy texture to your coffee.",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: No more dripping milk!, Text: This makes frothing so much easier! No more mess!"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Handy size, easy-to-clean finish, Text: I have been steaming milk in ceramic and stainless steel pitchers for years and years.  I found that the ceramic pitchers \"steal\" heat from the milk during steaming, so I have switched to stainless steel.  This Fire-Maple pitcher is metal with a slick coating, maybe something like anodized but I am not sure.  In any event, the pitcher is an attractive color and the finish is very easy to clean.  The gauge markings on the inside allow you to measure the amount of milk you want, so no guessing there and you can really dial-in your work flow.  I steamed up milk and the container worked nicely.  The handle is large enough to get some fingers in for comfortable holding without getting too close to the hot milk (through the pitcher wall).  With the handsome color, this can be an attractive and highly functional addition to your coffee work flow."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Nicely Made, Text: I like to make cappuccino when I have company over, and this milk frother is very attractive. Much more classy than using an empty coffee cup, which is what I usually use. It is made of pretty heavy pewter and looks nice."
+            }
+        ]
+    },
+    {
+        "item name": "GE WB44T10043 Genuine OEM Broil Element for GE Electric Ovens",
+        "item description": "The GE Appliances WB44T10043 Broil Element is a genuine OEM (Original Equipment Manufacturer) part designed and engineered to exact specifications Replacement GE Appliances Oven Broil Element supplies the heat from above while broiling GE Appliances WB44T10043 Oven Broil Element has approximate dimensions of L: 23\" x W: 18\" x H: 2\" High quality GE Appliances OEM WB44T10043 Oven Broil Element is manufactured with premium materials for durability and exact fit, be sure to follow instructions in owners manual when installing this part Repair your appliance with confidence when you choose Genuine GE Appliances Parts & Accessories",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: Excellent replacement unit, Text: This replacement part matches the manufacturer's recommended item number; it is easy to insert. There are about three or four screws in the base to be removed, then the new part is attached to the plug-in wire parts within the opening on the back wall of the oven, the replace the screws to hold it in place at the back oven port. In addition there are about two or three screws holding the unit to the top of the oven.  If the old screws are worn or heat burnt they can be replaced by selecting similar stainless steel screws at your local hardware store or Lowe's hardware screw section. It is important to go to the GE website and determine the exact specifications for your oven heating element and match them with your on line purchase. Doing this will save you money on the purchase."
+            }
+        ]
+    },
+    {
+        "item name": "Frigidaire 316543906 Control Knob. Unit, White",
+        "item description": "Frigidaire (FRIGB) Genuine Replacement Part Frigidaire item Country of Origin: China",
+        "reviews": [
+            {
+                "stars": 5.0,
+                "content": "Title: Perfect match, Text: Perfect match to the other jobs on my stove."
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: Fit perfect, Text: This fit prefect for my stove"
+            },
+            {
+                "stars": 5.0,
+                "content": "Title: good product, Text: Worked great. Fits perfect.."
             }
         ]
     }
