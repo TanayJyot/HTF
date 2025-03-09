@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from './data/DSC02113 1.webp'
-import img2 from './data/DSC02091 1.webp'
-import img3 from './data/DSC02133 2.webp'
-import img4 from './data/DSC02214 1.webp'
+import img1 from './data/image 5.png'
+import img2 from './data/image 6.png'
+import img3 from './data/image 7.png'
+import img4 from './data/image 8.png'
 import heart from './data/heart.svg'
 import img21 from './data/a206c0a02858ce417567e2db6a281ec8.webp'
 import img22 from './data/DSC02101.webp'
@@ -14,86 +14,86 @@ const Grids = ({ second }) => {
         {
             id: 1,
             img: img1,
-            name: "Kurti 1",
-            price: 15208,
+            name: "Clothing 1",
+            price: 50,
         }, {
             id: 2,
             img: img2,
-            name: "Kurti 2",
-            price: 1500,
+            name: "Clothing 2",
+            price: 50,
         }, {
             id: 3,
             img: img3,
-            name: "Kurti 3",
-            price: 1200,
+            name: "Clothing 3",
+            price: 50,
         }, {
             id: 4,
             img: img4,
-            name: "Kurti 4",
-            price: 1200,
+            name: "Clothing 4",
+            price: 50,
         }, {
             id: 5,
             img: img1,
-            name: "Kurti 1",
-            price: 15208,
+            name: "Clothing 1",
+            price: 50,
         }, {
             id: 6,
             img: img2,
-            name: "Kurti 1",
-            price: 1500,
+            name: "Clothing 1",
+            price: 50,
         }, {
             id: 7,
             img: img3,
-            name: "Kurti 1",
-            price: 1200,
+            name: "Clothing 1",
+            price: 50,
         }, {
             id: 8,
             img: img4,
-            name: "Kurti 1",
-            price: 1200,
+            name: "Clothing 1",
+            price: 50,
         },
     ]
 
         const items2 = [
         {
             id: 1,
-            img: img21,
-            name: "Kurti 1",
+            img: img1,
+            name: "Clothing 1",
             price: 15208,
         }, {
             id: 2,
-            img: img22,
-            name: "Kurti 2",
+            img: img2,
+            name: "Clothing 2",
             price: 1500,
         }, {
             id: 3,
-            img: img23,
-            name: "Kurti 3",
+            img: img3,
+            name: "Clothing 3",
             price: 1200,
         }, {
             id: 4,
-            img: img24,
-            name: "Kurti 4",
+            img: img4,
+            name: "Clothing 4",
             price: 1200,
         }, {
             id: 5,
-            img: img21,
-            name: "Kurti 1",
+            img: img1,
+            name: "Clothing 1",
             price: 15208,
         }, {
             id: 6,
-            img: img22,
-            name: "Kurti 2",
+            img: img2,
+            name: "Clothing 2",
             price: 1500,
         }, {
             id: 7,
-            img: img23,
-            name: "Kurti 3",
+            img: img4,
+            name: "Clothing 3",
             price: 1200,
         }, {
             id: 8,
-            img: img24,
-            name: "Kurti 4",
+            img: img3,
+            name: "Clothing 4",
             price: 1200,
         },
     ]
@@ -119,10 +119,10 @@ const Grids = ({ second }) => {
                     <div className="w-full">
                         <div className="flex flex-row justify-between p-3">
                             <p className="font-josephin font-semibold"> {item.name}</p>
-                            <p> Rs.{item.price}/-</p>
+                            <p> ${item.price}/-</p>
                         </div>
                         {/*<div className="card-actions">*/}
-                        <button className="card-body btn w-full bg-[#292D32] font-josephin text-white">Add to cart</button>
+                        <button className="card-body btn w-full bg-[#292D32] font-josephin text-white">Edit this item</button>
                         {/*</div>*/}
                     </div>
                 </div>

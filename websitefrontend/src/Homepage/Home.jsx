@@ -15,7 +15,7 @@ import PreFooter from "./PreFooter";
 function Home() {
     return (
         <div className="App">
-            <HeroCarousel/>
+            
             <h3 className="font-analogist text-4xl mx-5"> Our featured products</h3>
             <p className="text-base font-josephin mb-16 mx-5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
                 consequuntur

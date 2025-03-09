@@ -1,17 +1,16 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
-import AuthPage from './AuthPage';
-import Footer from "./Footer";
+import Footer from './Footer';
 
 const App = () => {
-    return (
-        <div>
-            <Navbar />
-            <AuthPage/>
-            <Footer />
-
-        </div>
-    );
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      {/* <Footer /> */}
+    </>
+  );
 };
 
 export default App;
