@@ -70,12 +70,8 @@ def detect_defects(
 
 if __name__ == "__main__":
     image = PIL.Image.open(
-        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/return-policy-on-clothes-v0-5q6z6ex9i9zc1.webp"
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/87002900_TM_B.avif"
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/istockphoto-1181214322-612x612.jpg"
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/moth-holes-720x390.jpg"
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/istockphoto-174952369-612x612.jpg"
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/modal_privacy__fztx4u51s8q6_large.jpg"
+        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/defective_teal_shorts.webp"
+        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/cracked_phone.jpg"
     )
     image.show()
 

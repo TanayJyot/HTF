@@ -55,11 +55,11 @@ def get_optimum_sizes(product_title, product_description, dimensions, person_dat
 
 if __name__ == "__main__":
     prod_img = PIL.Image.open(
-    "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/PXL_20250307_225812811.jpg"
+    "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/person.jpg"
     )
 
     user_img = PIL.Image.open(
-        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/f3ec47e76b5f2614b1eb8b448cfeef86b9689ade.jpg"
+        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/test_shirt.jpg"
     )
 
     product_description = "Polo T-shirt"

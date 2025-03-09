@@ -57,25 +57,25 @@ def predict_service(userAddress: dict[str, str], inventoryAddress: dict[str, str
 if __name__ == "__main__":
 
     userAddress = {
-            "addr1": "1500 Bank St.",
-            "countryCode": "CA",
-            "postalCode": "K1K1K1",
-            "city": "Ottawa",
-        }
+        "addr1": "1500 Bank St.",
+        "countryCode": "CA",
+        "postalCode": "K1H 7Z2",
+        "city": "Ottawa",
+    }
     inventoryAddr = {
-            "addr1": "1500 Bank St.",
+            "addr1": "400 Bay St.",
             "countryCode": "CA",
-            "postalCode": "K1K1K1",
-            "city": "Ottawa"
+            "postalCode": "M5H 2M3",
+            "city": "Toronto"
         }
     product_details = {
                 "packageType": "MyPackage",
                 "userDefinedPackageType": "Refrigerator",
-                "weight": 23,
+                "weight": 5,
                 "weightUnits": "Lbs",
-                "length": 19,
-                "width": 230,
-                "height": 430,
+                "length": 10,
+                "width": 10,
+                "height": 10,
                 "dimUnits": "Inches",
                 "description": "Gift for darling"
             }
