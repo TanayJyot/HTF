@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img1 from './data/image 5.png'
 import img2 from './data/image 6.png'
 import img3 from './data/image 7.png'
@@ -8,6 +8,7 @@ import img21 from './data/a206c0a02858ce417567e2db6a281ec8.webp'
 import img22 from './data/DSC02101.webp'
 import img23 from './data/DSC02137.webp'
 import img24 from './data/DSC02190.webp'
+import EditItemModal from "../EditItemModal"; // relative path to the new component
 
 const Grids = ({ second }) => {
     const items = [
@@ -98,20 +99,19 @@ const Grids = ({ second }) => {
         },
     ]
     const using = second ? items2 : items;
-
+    const [selectedItem, setSelectedItem] = useState(null);
+    const [showEditModal, setShowEditModal] = useState(false);
 
     return (
+        <>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16 mx-5">
             {using.map((item) => (
-                <div className="card card-compact w-full bg-base-100 shadow-xl relative h-[28rem]">
+                <div key={item.id} className="card card-compact w-full bg-base-100 shadow-xl relative h-[28rem]">
                     <figure className="relative">
                         <img src={item.img} className="w-full" alt="kjd"/>
                         <div className="card-actions justify-end absolute top-4 right-4">
                             <button className="btn btn-circle btn-sm">
                                 <img src={heart} alt="" className="w-6 h-6"/>
-                                {/*<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"*/}
-                                {/*     viewBox="0 0 24 24" stroke="currentColor">*/}
-
                             </button>
                         </div>
                     </figure>
@@ -121,13 +121,23 @@ const Grids = ({ second }) => {
                             <p className="font-josephin font-semibold"> {item.name}</p>
                             <p> ${item.price}/-</p>
                         </div>
-                        {/*<div className="card-actions">*/}
-                        <button className="card-body btn w-full bg-[#292D32] font-josephin text-white">Edit this item</button>
-                        {/*</div>*/}
+                        <button 
+                          className="card-body btn w-full bg-[#292D32] font-josephin text-white" 
+                          onClick={() => { setSelectedItem(item); setShowEditModal(true); }}>
+                          Edit this item
+                        </button>
                     </div>
                 </div>
             ))}
         </div>
+        {showEditModal && (
+          <EditItemModal 
+            isOpen={showEditModal} 
+            onClose={() => setShowEditModal(false)} 
+            item={selectedItem}
+          />
+        )}
+        </>
     );
 };
 
