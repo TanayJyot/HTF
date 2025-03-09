@@ -12,11 +12,11 @@ const Navbar = () => {
             </div>
 
             <div className="bg-base-100 flex justify-center items-center">
-                <Link to="/" className="btn btn-ghost text-xl font-light  font-josephin">Home</Link>
+                <Link to="/" className="btn btn-ghost text-xl font-light  font-josephin">Dashboard</Link>
                 {/*<button className="btn btn-ghost text-xl font-light font-josephin">Products</button>*/}
                 <div className="dropdown dropdown-bottom">
                     <div tabIndex={0} role="button"
-                         className="btn btn-ghost text-xl font-light font-josephin">Products
+                         className="btn btn-ghost text-xl font-light font-josephin">Analyics
                     </div>
                     <ul tabIndex={0}
                         className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4">
@@ -24,8 +24,7 @@ const Navbar = () => {
                         <li><a>Item 2</a></li>
                     </ul>
                 </div>
-                <Link to="/about" className="btn btn-ghost text-xl font-light font-josephin">About Us</Link>
-                <Link to="/contact" className="btn btn-ghost text-xl font-light font-josephin">Contact Us</Link>
+                <Link to="/about" className="btn btn-ghost text-xl font-light font-josephin">Optimize</Link>
             </div>
 
         </div>
