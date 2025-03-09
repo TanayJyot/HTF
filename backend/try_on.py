@@ -6,6 +6,7 @@ import PIL.ImageDraw as ImageDraw
 import os
 from dotenv import load_dotenv
 from pydantic import BaseModel
+import turtle
 
 
 load_dotenv()
@@ -21,7 +22,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
 def get_optimum_sizes(product_title, product_description, dimensions, person_data, product_image, user_image=None) -> Recommend_Product:
-
+    
     prompt = (
         f"The first image contains the following product \nProduct Title: {product_title} \nProduct Description: {product_description}."
         + f"\nIt has the following size chart: {dimensions}"
@@ -29,12 +30,14 @@ def get_optimum_sizes(product_title, product_description, dimensions, person_dat
         "\nEstimate the size that the person should buy for the product based on the their preferences and the provided size chart for the product."
     )
 
-    contents = [prompt, product_image]
+    contents = [prompt]
+    if product_image:
+        contents.append(product_image)
     if user_image:
         contents.append(user_image)
 
     response = client.models.generate_content(
-        model="gemini-2.0-flash-thinking-exp",
+        model="gemini-2.0-flash",
         contents=[prompt, product_image, user_image],
         config={
             "response_mime_type": "application/json",
@@ -52,11 +55,11 @@ def get_optimum_sizes(product_title, product_description, dimensions, person_dat
 
 if __name__ == "__main__":
     prod_img = PIL.Image.open(
-    "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/PXL_20250307_225812811.jpg"
+    "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/PXL_20250307_225812811.jpg"
     )
 
     user_img = PIL.Image.open(
-        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/f3ec47e76b5f2614b1eb8b448cfeef86b9689ade.jpg"
+        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/f3ec47e76b5f2614b1eb8b448cfeef86b9689ade.jpg"
     )
 
     product_description = "Polo T-shirt"
@@ -85,6 +88,8 @@ if __name__ == "__main__":
         prod_img,
         user_img,
     )
+
+    turtle.write("hello")
     
 
     print(recommendation)

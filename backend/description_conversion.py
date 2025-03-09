@@ -1,6 +1,7 @@
 """
 This file converts descriptions
 """
+
 import os
 from dotenv import load_dotenv
 from google import genai
@@ -11,11 +12,13 @@ from typing import List, Optional
 
 load_dotenv()
 
+
 class BetterDescription(BaseModel):
     name: str
     old_description: str
     returnReason: List[str]
     new_description: str
+
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
@@ -49,13 +52,17 @@ def generate_better_description(item):
 
 if __name__ == "__main__":
     try:
-        with open("final_2025-03-07_21-24-25_output.json", "r", encoding="utf-8") as file:
+        with open(
+            "final_2025-03-07_21-24-25_output.json", "r", encoding="utf-8"
+        ) as file:
             dataset = json.load(file)
     except FileNotFoundError:
         print("Error: real_dataset_new.json not found.")
         exit()
     except json.JSONDecodeError:
-        print("Error: Could not decode real_dataset_new.json.  The file may be corrupted.")
+        print(
+            "Error: Could not decode real_dataset_new.json.  The file may be corrupted."
+        )
         exit()
 
     store_data = []
@@ -66,9 +73,13 @@ if __name__ == "__main__":
                 item_to_store = json.loads(response_text)
                 store_data.append(item_to_store)
             except json.JSONDecodeError:
-                print(f"Error decoding JSON for {item.get('item name', 'Unknown Item')}")
+                print(
+                    f"Error decoding JSON for {item.get('item name', 'Unknown Item')}"
+                )
             except ValidationError as e:
-                print(f"Validation Error for {item.get('item name', 'Unknown Item')}: {e}")
+                print(
+                    f"Validation Error for {item.get('item name', 'Unknown Item')}: {e}"
+                )
 
     # Output the data to a JSON file
     output_file = f"better_descriptions_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_output.json"

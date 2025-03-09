@@ -20,7 +20,9 @@ class DefectData(BaseModel):
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
-def detect_defects(product_description, product_title, return_reason, image: Image) -> tuple[Image, list[DefectData]]:
+def detect_defects(
+    product_description, product_title, return_reason, image: Image
+) -> tuple[Image, list[DefectData]]:
     prompt = (
         f"The image contains the following product \nProduct Title: {product_title} \nProduct Description: {product_description}."
         + (
@@ -62,19 +64,20 @@ def detect_defects(product_description, product_title, return_reason, image: Ima
 
         img1 = ImageDraw.Draw(image)
         img1.rectangle(shape, outline="red", width=5)
-    
+
     return image, defects
 
 
 if __name__ == "__main__":
     image = PIL.Image.open(
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/return-policy-on-clothes-v0-5q6z6ex9i9zc1.webp"
+        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/return-policy-on-clothes-v0-5q6z6ex9i9zc1.webp"
         # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/87002900_TM_B.avif"
-        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/istockphoto-1181214322-612x612.jpg"
+        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/istockphoto-1181214322-612x612.jpg"
         # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/moth-holes-720x390.jpg"
         # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/istockphoto-174952369-612x612.jpg"
-        "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/modal_privacy__fztx4u51s8q6_large.jpg"
+        # "/Users/hasnaink/GitHub/HTF/NegativeReviewToReturnReasonConversion/images/modal_privacy__fztx4u51s8q6_large.jpg"
     )
+    image.show()
 
     product_description = "Mobile phone"
     product_title = "Mobile Phone"

@@ -31,7 +31,7 @@ def get_return_data_options(to_addr: dict[str, str], from_addr: dict[str, str], 
         "shipDateTime": date
     })
 
-    print(res.text)
+    # print(res.text)
 
     return res.text
 
