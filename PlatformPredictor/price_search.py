@@ -23,6 +23,7 @@ import time
 load_dotenv()
 global result_google_shopping
 
+
 def price_api_google_shopping(item_name) -> Any:
 
     API = "https://api.priceapi.com/v2"
@@ -37,7 +38,8 @@ def price_api_google_shopping(item_name) -> Any:
         "country": "us",
         "topic": "product_and_offers",
         "key": "term",
-        "values": "\n".join(search_terms)
+        "values": "\n".join(search_terms),
+        # "condition_code": "used",
     }
     response = urlopen(API + ENDPOINT, urlencode(job_parameters).encode())
     result_google_shopping = json.loads(response.read())
@@ -104,6 +106,7 @@ def price_api_ebay(item_name) -> Any:
     result = json.loads(response.read())
     return result
 
+
 def price_api_amazon(item_name) -> Any:
 
     API = "https://api.priceapi.com/v2"
@@ -143,6 +146,7 @@ def price_api_amazon(item_name) -> Any:
     response = urllib.request.urlopen(url)
     result = json.loads(response.read())
     return result
+
 
 def gemini(amazon, ebay, google_shopping, item_name):
 
